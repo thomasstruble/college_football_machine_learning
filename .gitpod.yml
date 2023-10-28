@@ -1,4 +1,4 @@
 image: condaforge/mambaforge:22.9.0-1
 tasks:
   - init: mamba env create -f cfb_env.yml
-  - command: mamba activate cfb
+  #- command: mamba activate cfb
